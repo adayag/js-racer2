@@ -7,3 +7,42 @@
 th {
   text-align: left;
 }
+
+#player1_strip td {
+    border-bottom: 1px dotted blue;
+}
+
+.racer_table td {
+    background-color: lightblue;
+    height: 200px;
+    width: 200px;
+    border-left: 1px solid black;
+}
+
+#player1_strip .active {
+    background-image: url('../images/zoolander.jpg');
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+}
+
+#player2_strip .active {
+    background-image: url('../images/hansel.jpg');
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+}
+
+#divider td{
+  background-color: white;
+  border: 1px solid white;
+}
+
+#player1_strip .Finish {
+  background-color: red;
+}
+
+#player2_strip .Finish {
+  background-color: red;
+}
+
+
+

@@ -1,0 +1,42 @@
+<h1>Hello <span id="player1"><%= @player1.name %>?</span> and <span id="player2">?<%= @player2.name %></span></h1>
+
+<%puts "ryan shut up"%>
+<% puts @player1.name %>
+<div class="board">
+  <table class="racer_table">
+    <tr id="player1_strip" class='<%=@player1.name%>'>
+      <td class="active"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td class="Finish" id="Finish1"></td>
+    </tr>
+    <tr id="divider">
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr id="player2_strip" class='<%=@player2.name%>'>
+      <td class="active"></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td class="Finish" id="Finish2"></td>
+    </tr>
+  </table> 
+</div>
+
+<script type="text/javascript">
+    var player1_id = <%= @player1.id %>;
+    var player2_id = <%= @player2.id %>;
+</script>
+
